@@ -6,7 +6,7 @@ function CharacterCards({ data }) {
   return (
     <section id="CharacterCards">
       {data.map((item) => (
-          <CharacterCard character={character} />
+        <CharacterCard character={character} />
       ))}
     </section>
   );
