@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Header />
-      <CharacterCards data={data} />
       <CharacterRatings data={data} />
+      <CharacterCards data={data} />
     </>
   );
 }

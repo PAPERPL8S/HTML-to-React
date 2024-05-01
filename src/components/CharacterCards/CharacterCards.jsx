@@ -4,9 +4,9 @@ import CharacterCard from "./_components/CharacterCard";
 
 function CharacterCards({ data }) {
   return (
-    <section id="CharacterCards">
-      {data.map((item) => (
-        <CharacterCard character={character} />
+    <section id="character-cards">
+      {data.map((character) => (
+        <CharacterCard key={character.name} character={character} />
       ))}
     </section>
   );
