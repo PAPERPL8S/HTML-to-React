@@ -8,6 +8,13 @@ const CharacterRatings = ({ data }) => {
     <section id="character-ratings">
       <h4>Top Characters</h4>
       <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Skillset</th>
+            <th>Votes</th>
+          </tr>
+        </thead>
         <tbody>
           {top5.map((character, index) => (
             <CharacterRating

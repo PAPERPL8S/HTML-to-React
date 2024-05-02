@@ -27,7 +27,7 @@ export const data = [
     background:
       "Edward is a master alchemist and our main character... just don't call him short",
     imageUrl:
-      "https://www.pngkit.com/png/detail/952-9524083_edward-elric-photo-edwardelric7-full-body-edward-elric.png",
+      "https://wallpapers.com/images/hd/fullmetal-alchemist-edward-elric-metal-hand-power-4fe9q02b0rovc29r.jpg",
   },
   {
     name: "Greed",
